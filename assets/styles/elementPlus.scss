@@ -1,0 +1,20 @@
+.el-dialog__headerbtn {
+  top: 2px !important;
+  right: 2px !important;
+  width: 25px !important;
+  height: 25px !important;
+  background: var(--backGround1) !important;
+  border-radius: 50% !important;
+  .el-icon {
+    width: 20px !important;
+    height: 20px !important;
+    svg {
+      color: var(--failed) !important;
+    }
+  }
+  &:hover {
+    .el-icon svg {
+      opacity: 0.5;
+    }
+  }
+}

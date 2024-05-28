@@ -1,0 +1,51 @@
+html {
+  font-family: "khmer", sans-serif;
+}
+:root {
+  --primary: rgb(0, 128, 0);
+  --sencondary: rgb(0, 128, 0);
+  --success: rgb(0, 233, 93);
+  --warning: rgb(242, 242, 0);
+  --failed: rgb(242, 0, 0);
+  --shadow: rgb(174, 174, 175);
+  --backGround1: rgb(229, 231, 235);
+  --backGround2: rgb(255, 255, 255);
+  --text1: rgb(0, 0, 0);
+  --text2: rgb(255, 255, 255);
+  --text3: rgb(20, 0, 195);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: var(--backGround1);
+}
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-corner {
+  background: var(--shadow);
+}
+h1,
+h2,
+h3 {
+  font-size: 20px;
+  font-weight: medium;
+  color: blue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div,
+span,
+p {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  div,
+  p,
+  span {
+    font-size: 14px;
+  }
+}
