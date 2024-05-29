@@ -4,6 +4,9 @@
             :class="IsActiveTab(tab.tabUrl) ? 'tab-actived' : 'text-text1'">
             {{ $t(tab.tabName) }}
         </NuxtLink>
+        <div>
+            <!-- <TheSwitchLanguage /> -->
+        </div>
     </div>
 </template>
 <script setup lang="ts">
