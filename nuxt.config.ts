@@ -1,6 +1,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ['~/assets/styles/main.scss', '~/assets/styles/global.scss', '~/assets/styles/elementPlus.scss'],
+  css: [
+    '~/assets/styles/main.scss',
+    '~/assets/styles/global.scss',
+    '~/assets/styles/elementPlus.scss'
+  ],
   runtimeConfig: {
     public: {
       apiBase: process.env.API_Base_URL
